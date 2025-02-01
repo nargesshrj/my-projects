@@ -1,0 +1,7 @@
+print("Hello dear user welcome to BMI calculator program")
+weight=float(input("enter your weight?(kg): "))
+height=float(input("enter your height?(m): "))
+bmi=(weight//(height**2))
+name=input("enter your name?: ")
+print(name,"your bmi is",bmi)
+quit=input()
